@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+  background-image: url("house.jpg");
+  background-size: cover;
+
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.header{
+  width: 90%
+  overflow: auto;
+  padding-top: 10px;
+  text-align:center; //allows inline-block
+
+}
+
+.home {
+  width: 100px;
+  height: 30px;
+  background: #CCFFFF;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+  display: inline-block;
+}
+
+.about {
+  width: 100px;
+  height: 30px;
+  background: #CCFFFF;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration:none;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.layout {
+  border-radius: 3%%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  width: 90%;
+  height: 700px;
+  opacity: 0.95;
+  position: absolute;
+}
+
+.logo {
+  opacity: 0.03;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.content {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 700px;
+  position: absolute;
+  z-index: 1; //pushes content above layout and logo
+}
+
+.frame1 {
+  background-image: url("frame1.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-top: 30px;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+}
+.frame2 {
+  background-image: url("frame2.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-top: 30px;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+
+}
+.frame3 {
+  background-image: url("frame3.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-top: 30px;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+.frame4 {
+  background-image: url("frame4.jpg");
+  background-size: cover;
+  text-align: center;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+}
+.frame5 {
+  background-image: url("frame5.jpg");
+  background-size: cover;
+  text-align: center;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+
+}
+.frame6 {
+  background-image: url("frame6.jpg");
+  background-size: cover;
+  text-align: center;
+  display:inline-block;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+p {
+  margin-top: 50px;
+}
